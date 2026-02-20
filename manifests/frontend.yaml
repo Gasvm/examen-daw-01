@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: temperaturas-frontend
-        image: gsvmm/temperaturas-frontend:v2
+        image: gsvmm/temperaturas-frontend:v3
         imagePullPolicy: Always
         ports:
         - containerPort: 3001
